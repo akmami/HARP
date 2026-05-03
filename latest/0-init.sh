@@ -21,6 +21,7 @@ pip install python-dotenv;
 pip install requests;
 pip install hypothesis;
 pip install pytest;
+pip install pandas;
 
 echo "";
 echo "Setup complete";
