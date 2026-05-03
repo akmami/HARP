@@ -1,4 +1,4 @@
-# APR Patch Correctness Study
+# HARP (Human-Assisted Repair Perception)
 
 ## Overview
 
