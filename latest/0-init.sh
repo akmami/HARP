@@ -27,8 +27,3 @@ echo "";
 echo "Setup complete";
 echo "To activate the environment, run:";
 echo "source $VENV_DIR/bin/activate";
-
-chmod +x init.sh;
-chmod +x pipeline.sh;
-chmod +x feedback-query.sh;
-chmod +x verify-llm-solution.sh;
