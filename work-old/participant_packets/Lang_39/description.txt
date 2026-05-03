@@ -1,9 +1,0 @@
-# Project & Bug
-Project: Apache Commons Lang
-Bug ID: Lang-39
-
-# Description
-The method performs multiple string replacements by applying a list of search strings and corresponding replacement strings to an input string. It is expected to handle edge cases such as null inputs, empty arrays, and null elements within the arrays gracefully.
-
-# Why it fails
-When certain elements in the replacement arrays are null, the method does not handle them properly and throws a runtime exception instead of skipping or safely processing those entries.

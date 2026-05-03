@@ -1,1 +1,0 @@
-NO The student's fix does not change the original code and still sums weights over the entire array instead of the specified subarray, so the bug remains.

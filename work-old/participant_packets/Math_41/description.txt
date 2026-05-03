@@ -1,9 +1,0 @@
-# Project & Bug
-Project: Apache Commons Math
-Bug ID: Math-41
-
-# Description
-The method computes statistical variance, including support for weighted data and evaluation over subarrays of the input.
-
-# Why it fails
-When evaluating variance on a subset of the data using weights, the method produces incorrect results, indicating an inconsistency in how subarray segments are handled during weighted computation.

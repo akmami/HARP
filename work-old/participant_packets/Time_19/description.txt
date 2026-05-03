@@ -1,9 +1,0 @@
-# Project & Bug
-Project: Joda-Time
-Bug ID: Time-19
-
-# Description
-The library handles date and time creation with time zone support, including transitions such as daylight saving time changes.
-
-# Why it fails
-When creating date-time instances around a time zone transition, the resulting time zone offset is incorrect, leading to inconsistent or unexpected time representations.

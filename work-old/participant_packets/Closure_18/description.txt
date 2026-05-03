@@ -1,9 +1,0 @@
-# Project & Bug
-Project: Closure Compiler
-Bug ID: Closure-18
-
-# Description
-The compiler processes multiple JavaScript inputs and, when dependency sorting is enabled, should reorder them so that definitions (e.g., goog.provide) appear before their corresponding usages (e.g., goog.require).
-
-# Why it fails
-When dependency sorting is enabled, the compiler does not correctly reorder the inputs, resulting in an output where dependencies are in the wrong order and violate the expected execution sequence.
