@@ -1,6 +1,0 @@
-{
-  "project": "Lang",
-  "bug_id": "6",
-  "summary": "StringIndexOutOfBoundsException in CharSequenceTranslator",
-  "description": "I found that there is bad surrogate pair handling in the CharSequenceTranslator. This is a simple test case for this problem. \uD83D\uDE30 is a surrogate pair. assertEquals("\uD83D\uDE30", StringEscapeUtils.escapeCsv("\uD83D\uDE30"));"
-}

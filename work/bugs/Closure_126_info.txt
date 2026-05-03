@@ -1,6 +1,0 @@
-{
-  "project": "Closure",
-  "bug_id": 126,
-  "summary": "Break in finally block isn't optimized properly",
-  "description": "try { throw(\"throw me\") } finally { break } ... expected behavior ..."
-}

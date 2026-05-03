@@ -1,6 +1,0 @@
-{
-  "project": "Chart",
-  "bug_id": "1",
-  "summary": "Possible Bug as returning NullPointerException",
-  "description": "Potential Null Pointer Exception in AbstractCategoryItemRender.getLegendItems() results in a null pointer access in the class."
-}
