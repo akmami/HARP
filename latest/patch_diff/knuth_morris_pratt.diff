@@ -1,7 +1,0 @@
-39c39,42
-<             j = failure[j - 1]
----
->             fallback = failure[j - 1]
->             shift = j - fallback
->             i += shift
->             j = fallback
