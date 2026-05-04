@@ -22,6 +22,7 @@ pip install requests;
 pip install hypothesis;
 pip install pytest;
 pip install pandas;
+pip install tabulate;
 
 echo "";
 echo "Setup complete";
